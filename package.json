@@ -1,9 +1,10 @@
 {
   "name": "@aish1309/share",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": " exit 0"
+    "test": " exit 0",
+    "build": "babel src --out-dir dist"
   },
   "publishConfig": {
     "@aish1309:registry": "https://npm.pkg.github.com"
@@ -15,5 +16,11 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7"
   }
 }
