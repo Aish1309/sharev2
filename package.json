@@ -1,6 +1,6 @@
 {
-  "name": "@aish1309/share",
-  "version": "1.0.1",
+  "name": "@aish1309/sharev2",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
     "test": " exit 0",
